@@ -1,0 +1,52 @@
+/*Horizontal Menu*/
+div.scrollmenu {
+    background-color: #151c7c;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: rgb(29, 107, 209);
+  }
+  /*Background Slideshow*/
+  /*contact us*/
+  body {font-family: Arial, Helvetica, sans-serif;}
+  * {box-sizing: border-box;}
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: gray;
+    color: gold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: gold;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 20px;
+  }
